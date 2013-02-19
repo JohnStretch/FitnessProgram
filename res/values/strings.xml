@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">FitnessProgram</string>
+    <string name="empty_user">You currently haven\'t any user profile, Please create it !!!</string>
+    <string name="create_new_person">Create new user</string>
+    <string name="remove_person">Remove user</string>
+    <string name="show_all_users">Show all users</string>
+    <string name="title_activity_fitness_program">FitnessProgramActivity</string>
+
+</resources>

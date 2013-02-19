@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/upper_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText 
+            android:id="@+id/user_name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textSize="21sp"
+            android:textColor="#ffaabbcc"
+            android:hint="Enter name" />
+
+        <EditText
+            android:id="@+id/user_password_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textSize="21sp"
+            android:textColor="#ffaabbcc"
+            android:hint="Enter password" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_below="@id/upper_layout" >
+
+        <Button
+            android:id="@+id/negative_button"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/possitive_button"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:text="Ok" />
+    </LinearLayout>
+
+</RelativeLayout>
